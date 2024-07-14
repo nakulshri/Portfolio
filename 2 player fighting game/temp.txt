@@ -1,0 +1,9 @@
+ draw() {
+        c.fillStyle = this.color
+        c.fillRect(this.position.x, this.position.y, this.width, this.height)
+        //attack box
+        if (this.isattacking) {
+            c.fillStyle = 'green'
+            c.fillRect(this.attackbox.position.x, this.attackbox.position.y, this.attackbox.width, this.attackbox.height)
+        }
+    }

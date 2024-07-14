@@ -1,0 +1,65 @@
+.mainpage {
+    background-color: #0A000D;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+  
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+    }
+  
+    .navbar {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 40px;
+      margin-left: 800px; /* Adjust this for larger screens */
+      padding: 20px;
+  
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+      }
+  
+      button {
+        padding: 8px 15px;
+        background-color: #ad32e7;
+        color: white;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #5e0477;
+        }
+      }
+  
+      @media (max-width: 768px) {
+        width: 100%; /* Ensure the navbar takes full width on small screens */
+        justify-content: center; /* Center the items */
+        margin-left: 0; /* Reset margin */
+        padding: 10px; /* Adjust padding */
+        gap: 20px;
+  
+        a {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  

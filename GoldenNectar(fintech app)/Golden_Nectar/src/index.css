@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+#ddlProducts *
+                    {
+               border-radius: 15px;
+               background-color: red;
+              }
+
+body{
+  font-family: "Josefin Sans", sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}

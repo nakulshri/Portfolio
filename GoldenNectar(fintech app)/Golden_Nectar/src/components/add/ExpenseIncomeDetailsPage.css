@@ -1,0 +1,89 @@
+.expense-income-details-page{
+
+  width: 100vw;
+  background-color: #0c0f14;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+    0px 105px 63px rgba(0, 0, 0, 0.05),
+    0px 47px 47px rgba(0, 0, 0, 0.09),
+    0px 12px 26px rgba(0, 0, 0, 0.1),
+    0px 0px 0px rgba(0, 0, 0, 0.1);
+    color: white;
+
+
+    table {
+
+      width: 100%;
+      border-collapse: collapse;
+      max-width: 1000px;
+
+
+      margin: 20px;
+      margin-bottom: 50px;
+
+      thead {
+        background-color: rgba(112, 7, 139, 0.308);
+        border-radius: 20px;
+
+        th {
+          background-color: rgba(255, 255, 255, 0.308);
+          border-radius: 20px 20px 0 0;
+
+          color: white;
+          padding: 10px;
+
+
+        }
+      }
+
+      tbody {
+
+        tr {
+
+
+          td {
+            padding: 10px;
+            color: white;
+            text-align: center;
+            button {
+              padding: 8px 15px;
+              background-color: #ad32e7;
+              color: white;
+              font-weight: 600;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+    
+              &:hover {
+                background-color: #5e0477;
+              }
+          }
+        }
+      }
+    }
+
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+
+    span {
+      color: #ad32e7;
+    }
+  }
+
+  .filters {
+    margin-bottom: 20px;
+    /* Implement styles for filters if needed */
+  }
+
+ 
+}
+}
+  
+    
