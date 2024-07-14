@@ -1,0 +1,63 @@
+.AddUser{
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    background-color: #57737A;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    form{
+        display: flex;
+        gap: 20px;
+
+        input{
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: #040F0F;
+            &::placeholder{
+                color: white;
+            }
+        }
+
+        button{
+            padding: 10px;border-radius: 10px;
+            background-color: #C2FCF7;
+            color: #040F0F;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .user{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .detail{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            button{
+                padding: 10px;border-radius: 10px;
+                background-color: #C2FCF7;
+                color: #040F0F;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
